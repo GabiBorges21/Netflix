@@ -12,6 +12,11 @@
 #perfils ul {
     width: 900px;
     margin: 220px auto;
+   
+}
+
+.perfil{
+    padding-top: 5px;
 }
 
 h1 {
@@ -28,8 +33,31 @@ li {
     padding: 15px;
     float: left;
 }
+
+li img:hover {
+    border: 3px solid white;
+    
+}
+
 p {
+    color: rgb(131, 131, 131) ;
     font-size: 20px;
     text-align: center;
     height: 15px;
+}
+
+#gers p {
+   
+    float: left;
+    clear: both;
+    margin: 50px 33%;
+    padding: 15px;
+    width: 230px;
+    height: 20px;
+    border: 1px solid rgb(131, 131, 131);
+}
+
+#gers p:hover {
+    border: 1px solid white;
+    color: white;
 }
